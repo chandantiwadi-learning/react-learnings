@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function DateTime() {
+function App() {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
 
   useEffect(() => {
