@@ -19,18 +19,13 @@ function App() {
       </p>
       <h2 style={{ fontSize: '48px', margin: '20px 0' }}>{count}</h2>
       <div>
-        <button 
-          onClick={() => setCount(count + 1)} 
+        <button
+          onClick={() => setCount(count + 1)}
           style={{ fontSize: '20px', padding: '10px 20px', cursor: 'pointer', borderRadius: '5px', border: '1px solid #ccc', marginRight: '10px' }}
         >
           Click Me
         </button>
-        <button 
-          onClick={() => setCount(0)} 
-          style={{ fontSize: '20px', padding: '10px 20px', cursor: 'pointer', borderRadius: '5px', border: '1px solid #ccc', backgroundColor: '#f0f0f0' }}
-        >
-          Reset
-        </button>
+
       </div>
     </div>
   );
